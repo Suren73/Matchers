@@ -1,8 +1,7 @@
-export default function indexHealth(data) {
-  if (data.health > 50) {
-    return 'healthy';
-  } if (data.health < 15) {
-    return 'critical';
-  }
-  return 'wounded';
+export default function sortHealth(data) {
+	const sortUsers = [];
+	Object.keys(data)
+		.sort((a, b) => data[b].health - data[a].health)
+		.forEach((index) => sortUsers.push(data[index]));
+	return sortUsers;
 }
