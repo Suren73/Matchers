@@ -1,2 +1,2 @@
 # Matchers
-Не могу добавить репозиторий в Appveyor и выставить бейджик статуса, пишет Projects quota exceeded
+[![Build status](https://ci.appveyor.com/api/projects/status/bsvf6t4w82vgkuk7?svg=true)](https://ci.appveyor.com/project/Suren73/matchers)
